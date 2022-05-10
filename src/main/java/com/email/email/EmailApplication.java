@@ -20,7 +20,7 @@ public class EmailApplication {
 
     @EventListener(ApplicationReadyEvent.class)
     public void triggerMail() throws MessagingException {
-        emailSenderService.sendMailWithAttachment("arjungautam5431@gmail.com",
+        emailSenderService.sendMailWithAttachment("arjuncodesdemo@gmail.com",
                 "This is email body.",
                 "This email subject", "" +
                         "/home/arjun/Pictures/Wallpapers/wallpaper.jpg")
